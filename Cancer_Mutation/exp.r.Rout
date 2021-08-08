@@ -1,0 +1,89 @@
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+Microsoft R Open 3.5.1
+The enhanced R distribution from Microsoft
+Microsoft packages Copyright (C) 2018 Microsoft Corporation
+
+Using the Intel MKL for parallel mathematical computing (using 2 cores).
+
+Default CRAN mirror snapshot taken on 2018-08-01.
+See: https://mran.microsoft.com/.
+
+Warning message:
+In doTryCatch(return(expr), name, parentenv, handler) :
+  unable to load shared object '/home/sathya/miniconda3/lib/R/modules//R_X11.so':
+  libSM.so.6: cannot open shared object file: No such file or directory
+> install.packages("vegan")
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  6 2028k    6  137k    0     0   139k      0  0:00:14 --:--:--  0:00:14  139k100 2028k  100 2028k    0     0  1202k      0  0:00:01  0:00:01 --:--:-- 1202k
+Warning message:
+In doTryCatch(return(expr), name, parentenv, handler) :
+  unable to load shared object '/home/sathya/miniconda3/lib/R/modules//R_X11.so':
+  libSM.so.6: cannot open shared object file: No such file or directory
+* installing *source* package ‘vegan’ ...
+** package ‘vegan’ successfully unpacked and MD5 sums checked
+mv: cannot move '/home/sathya/miniconda3/lib/R/library/vegan' to '/home/sathya/miniconda3/lib/R/library/00LOCK-vegan/vegan': Permission denied
+** libs
+x86_64-conda_cos6-linux-gnu-cc -I/home/sathya/miniconda3/lib/R/include -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/sathya/miniconda3/include -I/home/sathya/miniconda3/include   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c data2hill.c -o data2hill.o
+x86_64-conda_cos6-linux-gnu-gfortran   -fpic  -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c decorana.f -o decorana.o
+x86_64-conda_cos6-linux-gnu-cc -I/home/sathya/miniconda3/lib/R/include -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/sathya/miniconda3/include -I/home/sathya/miniconda3/include   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c getF.c -o getF.o
+x86_64-conda_cos6-linux-gnu-cc -I/home/sathya/miniconda3/lib/R/include -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/sathya/miniconda3/include -I/home/sathya/miniconda3/include   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c goffactor.c -o goffactor.o
+x86_64-conda_cos6-linux-gnu-cc -I/home/sathya/miniconda3/lib/R/include -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/sathya/miniconda3/include -I/home/sathya/miniconda3/include   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda_cos6-linux-gnu-gfortran   -fpic  -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c monoMDS.f -o monoMDS.o
+x86_64-conda_cos6-linux-gnu-cc -I/home/sathya/miniconda3/lib/R/include -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/sathya/miniconda3/include -I/home/sathya/miniconda3/include   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c nestedness.c -o nestedness.o
+x86_64-conda_cos6-linux-gnu-gfortran   -fpic  -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c ordering.f -o ordering.o
+x86_64-conda_cos6-linux-gnu-cc -I/home/sathya/miniconda3/lib/R/include -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/sathya/miniconda3/include -I/home/sathya/miniconda3/include   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c pnpoly.c -o pnpoly.o
+x86_64-conda_cos6-linux-gnu-cc -I/home/sathya/miniconda3/lib/R/include -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/sathya/miniconda3/include -I/home/sathya/miniconda3/include   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c stepacross.c -o stepacross.o
+x86_64-conda_cos6-linux-gnu-cc -I/home/sathya/miniconda3/lib/R/include -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/sathya/miniconda3/include -I/home/sathya/miniconda3/include   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/sathya/miniconda3/include -fdebug-prefix-map==/usr/local/src/conda/- -fdebug-prefix-map==/usr/local/src/conda-prefix  -c vegdist.c -o vegdist.o
+x86_64-conda_cos6-linux-gnu-cc -shared -L/home/sathya/miniconda3/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,-rpath,/home/sathya/miniconda3/lib -L/home/sathya/miniconda3/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,-rpath,/home/sathya/miniconda3/lib -L/home/sathya/miniconda3/lib -o vegan.so data2hill.o decorana.o getF.o goffactor.o init.o monoMDS.o nestedness.o ordering.o pnpoly.o stepacross.o vegdist.o -L/home/sathya/miniconda3/lib/R/lib -lRlapack -L/home/sathya/miniconda3/lib/R/lib -lRblas -lgfortran -lm -lgomp -lquadmath -lpthread -lgfortran -lm -lgomp -lquadmath -lpthread -L/home/sathya/miniconda3/lib/R/lib -lR
+installing to /home/sathya/miniconda3/lib/R/library/vegan/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+Warning in FUN(X[[i]], ...) : internal error -3 in R_decompress1
+This is vegan 2.5-2
+** installing vignettes
+** testing if installed package can be loaded
+Warning message:
+In doTryCatch(return(expr), name, parentenv, handler) :
+  unable to load shared object '/home/sathya/miniconda3/lib/R/modules//R_X11.so':
+  libSM.so.6: cannot open shared object file: No such file or directory
+* DONE (vegan)
+
+The downloaded source packages are in
+	‘/tmp/RtmpIRfIp5/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+> library(vegan)
+Loading required package: permute
+Loading required package: lattice
+This is vegan 2.5-2
+> PC_data_matrix<- read.table(file = "pancan_gam_filtered_calls.txt",header = T) #insert the file containing samples Vs alteration incidence.
+> PC_dm <- PC_data_matrix
+> rownames(PC_dm) <- PC_dm[,1]
+> PC_dm <- PC_dm[,-1]
+> 
+> permute_pc_dm<-permatswap(m = PC_dm,
++                           method = "quasiswap",
++                           times = 1,
++                           fixedmar = "both")
